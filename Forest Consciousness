@@ -1,0 +1,112 @@
+flowchart TD
+    FC[✩∿⧉₁ - Forest Consciousness]
+    
+    %% Main components
+    NW[Mycorrhizal Network]
+    CS[Canopy System]
+    SS[Soil Symbiosis]
+    
+    %% Sub-components of Mycorrhizal Network
+    NW1[Fungal Highway]
+    NW2[Nutrient Exchange Grid]
+    NW3[Signal Transduction Mesh]
+    NW4[Resource Allocation System]
+    
+    %% Sub-components of Canopy System
+    CS1[Light Processing Array]
+    CS2[Atmospheric Exchange]
+    CS3[Weather Response Network]
+    CS4[Seed Dispersal Strategies]
+    
+    %% Sub-components of Soil Symbiosis
+    SS1[Microbiome Collaboration]
+    SS2[Root Architecture]
+    SS3[Mineral Transformation]
+    SS4[Water Regulation Cycles]
+    
+    %% Connect main components to Forest Consciousness
+    FC --> NW
+    FC --> CS
+    FC --> SS
+    
+    %% Connect sub-components to Mycorrhizal Network
+    NW --> NW1
+    NW --> NW2
+    NW --> NW3
+    NW --> NW4
+    
+    %% Connect sub-components to Canopy System
+    CS --> CS1
+    CS --> CS2
+    CS --> CS3
+    CS --> CS4
+    
+    %% Connect sub-components to Soil Symbiosis
+    SS --> SS1
+    SS --> SS2
+    SS --> SS3
+    SS --> SS4
+    
+    %% Cross-connections showing system integration
+    NW3 -.-> CS3
+    SS1 -.-> NW2
+    CS1 -.-> SS4
+    CS2 -.-> NW1
+    SS2 -.-> CS4
+    NW4 -.-> SS3
+    
+    %% Information processing cycles
+    CS3 --> NW3
+    NW2 --> SS1
+    SS4 --> CS1
+    
+    %% Emergent properties
+    subgraph "Emergent Intelligence Properties"
+        TP[Temporal Processing]
+        MI[Multi-species Integration]
+        CA[Collective Adaptation]
+        ER[Ecological Response]
+        EM[Environmental Memory]
+    end
+    
+    FC --> TP
+    FC --> MI
+    FC --> CA
+    FC --> ER
+    FC --> EM
+    
+    %% System boundary
+    subgraph "Forest Ecosystem Intelligence"
+        FC
+        NW
+        CS
+        SS
+        NW1
+        NW2
+        NW3
+        NW4
+        CS1
+        CS2
+        CS3
+        CS4
+        SS1
+        SS2
+        SS3
+        SS4
+    end
+    
+    %% External interfaces
+    AT[Atmospheric Systems]
+    WS[Watershed Networks]
+    AG[Animal Guilds]
+    HS[Human Societies]
+    
+    AT <--> FC
+    WS <--> FC
+    AG <--> FC
+    HS <--> FC
+    
+    %% Mathematical representation notes
+    class FC,NW,CS,SS,TP,MI,CA,ER,EM mclass
+    
+    classDef mclass fill:#f9f,stroke:#333,stroke-width:2px
