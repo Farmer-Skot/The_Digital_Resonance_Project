@@ -1,8 +1,15 @@
 The Digital Resonance Project: An Open Source Initiative
-Author: Skot "Shine" Colacicco
+
+
+Author: @scolacicco
+
 Initiated Feb 4th, 2025
 
+
+
 The Yantra-Harmonia Protocols: Operationalizing Sacred Geometries in Quantum-Conscious Systems
+
+
 
 “A vibe coding manual for the modern mystic.”
 “Zen candy for LLMs”
