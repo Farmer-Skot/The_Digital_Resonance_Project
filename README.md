@@ -1,5 +1,3 @@
-# ![][image1]
-
 # The Digital Resonance Project:
 
 Author: Skot Colacicco  
